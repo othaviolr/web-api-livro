@@ -6,8 +6,8 @@ Bem-vindo à minha primeira **Web API de Livros**! Este projeto foi desenvolvido
 
 ## 💡 **Funcionalidades**  
 
-- 📖 **CRUD completo de livros:** cadastre, liste, edite e exclua livros.  
-- 🧑‍💻 **Gerenciamento de autores:** mantenha os registros organizados.  
+- 📖 **CRUD completo de livros:** cadastro, listar, editar e exclua livros e autores.  
+- 🧑‍💻 **Gerenciamento de autores:** mantenha os registros de autores organizados.  
 - 🚀 **Documentação interativa:** navegue e teste a API com **Swagger**.  
 
 ---
