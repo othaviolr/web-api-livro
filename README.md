@@ -29,3 +29,7 @@ Bem-vindo à minha primeira **Web API de Livros**! Este projeto foi desenvolvido
 - ✔️ Validações avançadas de entrada.  
 - 🔧 Tratamento robusto de erros.  
 - 🔐 Segurança com autenticação JWT.  
+
+---
+
+- Estou aberto a críticas construtivas e sugestões para meu projeto! :)
