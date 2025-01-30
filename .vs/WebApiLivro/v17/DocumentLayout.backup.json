@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Projetos\\WebApiLivro\\WebApiLivro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{21F92324-3DE0-4F82-9105-8AE9815C7E87}|WebApiLivro\\WebApiLivro.csproj|e:\\projetos\\webapilivro\\webapilivro\\webapilivro\\services\\livro\\livroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21F92324-3DE0-4F82-9105-8AE9815C7E87}|WebApiLivro\\WebApiLivro.csproj|solutionrelative:webapilivro\\services\\livro\\livroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21F92324-3DE0-4F82-9105-8AE9815C7E87}|WebApiLivro\\WebApiLivro.csproj|e:\\projetos\\webapilivro\\webapilivro\\webapilivro\\dto\\livro\\livroedicaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21F92324-3DE0-4F82-9105-8AE9815C7E87}|WebApiLivro\\WebApiLivro.csproj|solutionrelative:webapilivro\\dto\\livro\\livroedicaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21F92324-3DE0-4F82-9105-8AE9815C7E87}|WebApiLivro\\WebApiLivro.csproj|e:\\projetos\\webapilivro\\webapilivro\\webapilivro\\dto\\livro\\livrocriacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21F92324-3DE0-4F82-9105-8AE9815C7E87}|WebApiLivro\\WebApiLivro.csproj|solutionrelative:webapilivro\\dto\\livro\\livrocriacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21F92324-3DE0-4F82-9105-8AE9815C7E87}|WebApiLivro\\WebApiLivro.csproj|e:\\projetos\\webapilivro\\webapilivro\\webapilivro\\dto\\vinculo\\autorvinculodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21F92324-3DE0-4F82-9105-8AE9815C7E87}|WebApiLivro\\WebApiLivro.csproj|solutionrelative:webapilivro\\dto\\vinculo\\autorvinculodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21F92324-3DE0-4F82-9105-8AE9815C7E87}|WebApiLivro\\WebApiLivro.csproj|e:\\projetos\\webapilivro\\webapilivro\\webapilivro\\models\\autormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21F92324-3DE0-4F82-9105-8AE9815C7E87}|WebApiLivro\\WebApiLivro.csproj|solutionrelative:webapilivro\\models\\autormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21F92324-3DE0-4F82-9105-8AE9815C7E87}|WebApiLivro\\WebApiLivro.csproj|e:\\projetos\\webapilivro\\webapilivro\\webapilivro\\controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21F92324-3DE0-4F82-9105-8AE9815C7E87}|WebApiLivro\\WebApiLivro.csproj|solutionrelative:webapilivro\\controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21F92324-3DE0-4F82-9105-8AE9815C7E87}|WebApiLivro\\WebApiLivro.csproj|e:\\projetos\\webapilivro\\webapilivro\\webapilivro\\services\\autor\\autorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21F92324-3DE0-4F82-9105-8AE9815C7E87}|WebApiLivro\\WebApiLivro.csproj|solutionrelative:webapilivro\\services\\autor\\autorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21F92324-3DE0-4F82-9105-8AE9815C7E87}|WebApiLivro\\WebApiLivro.csproj|e:\\projetos\\webapilivro\\webapilivro\\webapilivro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21F92324-3DE0-4F82-9105-8AE9815C7E87}|WebApiLivro\\WebApiLivro.csproj|solutionrelative:webapilivro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LivroEdicaoDto.cs",
+              "DocumentMoniker": "E:\\Projetos\\WebApiLivro\\WebApiLivro\\WebApiLivro\\Dto\\Livro\\LivroEdicaoDto.cs",
+              "RelativeDocumentMoniker": "WebApiLivro\\Dto\\Livro\\LivroEdicaoDto.cs",
+              "ToolTip": "E:\\Projetos\\WebApiLivro\\WebApiLivro\\WebApiLivro\\Dto\\Livro\\LivroEdicaoDto.cs",
+              "RelativeToolTip": "WebApiLivro\\Dto\\Livro\\LivroEdicaoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T03:25:10.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LivroCriacaoDto.cs",
+              "DocumentMoniker": "E:\\Projetos\\WebApiLivro\\WebApiLivro\\WebApiLivro\\Dto\\Livro\\LivroCriacaoDto.cs",
+              "RelativeDocumentMoniker": "WebApiLivro\\Dto\\Livro\\LivroCriacaoDto.cs",
+              "ToolTip": "E:\\Projetos\\WebApiLivro\\WebApiLivro\\WebApiLivro\\Dto\\Livro\\LivroCriacaoDto.cs",
+              "RelativeToolTip": "WebApiLivro\\Dto\\Livro\\LivroCriacaoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T03:20:45.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AutorModel.cs",
+              "DocumentMoniker": "E:\\Projetos\\WebApiLivro\\WebApiLivro\\WebApiLivro\\Models\\AutorModel.cs",
+              "RelativeDocumentMoniker": "WebApiLivro\\Models\\AutorModel.cs",
+              "ToolTip": "E:\\Projetos\\WebApiLivro\\WebApiLivro\\WebApiLivro\\Models\\AutorModel.cs",
+              "RelativeToolTip": "WebApiLivro\\Models\\AutorModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T03:20:17.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AutorVinculoDto.cs",
+              "DocumentMoniker": "E:\\Projetos\\WebApiLivro\\WebApiLivro\\WebApiLivro\\Dto\\Vinculo\\AutorVinculoDto.cs",
+              "RelativeDocumentMoniker": "WebApiLivro\\Dto\\Vinculo\\AutorVinculoDto.cs",
+              "ToolTip": "E:\\Projetos\\WebApiLivro\\WebApiLivro\\WebApiLivro\\Dto\\Vinculo\\AutorVinculoDto.cs",
+              "RelativeToolTip": "WebApiLivro\\Dto\\Vinculo\\AutorVinculoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T03:20:05.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LivroController.cs",
+              "DocumentMoniker": "E:\\Projetos\\WebApiLivro\\WebApiLivro\\WebApiLivro\\Controllers\\LivroController.cs",
+              "RelativeDocumentMoniker": "WebApiLivro\\Controllers\\LivroController.cs",
+              "ToolTip": "E:\\Projetos\\WebApiLivro\\WebApiLivro\\WebApiLivro\\Controllers\\LivroController.cs",
+              "RelativeToolTip": "WebApiLivro\\Controllers\\LivroController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAA6wDwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T02:55:00.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LivroService.cs",
+              "DocumentMoniker": "E:\\Projetos\\WebApiLivro\\WebApiLivro\\WebApiLivro\\Services\\Livro\\LivroService.cs",
+              "RelativeDocumentMoniker": "WebApiLivro\\Services\\Livro\\LivroService.cs",
+              "ToolTip": "E:\\Projetos\\WebApiLivro\\WebApiLivro\\WebApiLivro\\Services\\Livro\\LivroService.cs",
+              "RelativeToolTip": "WebApiLivro\\Services\\Livro\\LivroService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T01:58:29.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AutorService.cs",
+              "DocumentMoniker": "E:\\Projetos\\WebApiLivro\\WebApiLivro\\WebApiLivro\\Services\\Autor\\AutorService.cs",
+              "RelativeDocumentMoniker": "WebApiLivro\\Services\\Autor\\AutorService.cs",
+              "ToolTip": "E:\\Projetos\\WebApiLivro\\WebApiLivro\\WebApiLivro\\Services\\Autor\\AutorService.cs",
+              "RelativeToolTip": "WebApiLivro\\Services\\Autor\\AutorService.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAA9wIgAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T23:04:41.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Projetos\\WebApiLivro\\WebApiLivro\\WebApiLivro\\Program.cs",
+              "RelativeDocumentMoniker": "WebApiLivro\\Program.cs",
+              "ToolTip": "E:\\Projetos\\WebApiLivro\\WebApiLivro\\WebApiLivro\\Program.cs",
+              "RelativeToolTip": "WebApiLivro\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T23:28:43.869Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
