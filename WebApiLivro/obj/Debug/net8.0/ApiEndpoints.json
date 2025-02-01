@@ -1,5 +1,47 @@
 [
   {
+    "ContainingType": "WebApiLivro.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "WebApiLivro.Dto.Auth.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiLivro.Controllers.AuthController",
+    "Method": "Perfil",
+    "RelativePath": "api/Auth/Perfil",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiLivro.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/Registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDto",
+        "Type": "WebApiLivro.Dto.Auth.UserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApiLivro.Controllers.AutorController",
     "Method": "BuscarAutorPorId",
     "RelativePath": "api/Autor/BuscarAutorPorId/{idAutor}",

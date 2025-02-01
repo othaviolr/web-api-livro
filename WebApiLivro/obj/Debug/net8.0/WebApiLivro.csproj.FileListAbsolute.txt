@@ -170,3 +170,6 @@ E:\Projetos\WebApiLivro\WebApiLivro\WebApiLivro\obj\Debug\net8.0\refint\WebApiLi
 E:\Projetos\WebApiLivro\WebApiLivro\WebApiLivro\obj\Debug\net8.0\WebApiLivro.pdb
 E:\Projetos\WebApiLivro\WebApiLivro\WebApiLivro\obj\Debug\net8.0\WebApiLivro.genruntimeconfig.cache
 E:\Projetos\WebApiLivro\WebApiLivro\WebApiLivro\obj\Debug\net8.0\ref\WebApiLivro.dll
+E:\Projetos\WebApiLivro\WebApiLivro\WebApiLivro\obj\Debug\net8.0\WebApiLivro.sourcelink.json
+E:\Projetos\WebApiLivro\WebApiLivro\WebApiLivro\bin\Debug\net8.0\BCrypt.Net-Next.dll
+E:\Projetos\WebApiLivro\WebApiLivro\WebApiLivro\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

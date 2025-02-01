@@ -13,6 +13,8 @@ namespace WebApiLivro.Data
 
         public DbSet<AutorModel> Autores { get; set; }
         public DbSet<LivroModel> Livros { get; set; }
+        
+        public DbSet<Usuario> Usuarios { get; set; }
 
     }
 }
