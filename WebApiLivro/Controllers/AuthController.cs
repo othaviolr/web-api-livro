@@ -1,13 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.IdentityModel.Tokens;
-using System.IdentityModel.Tokens.Jwt;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
-using System.Text;
-using WebApiLivro.Data;
 using WebApiLivro.Dto.Auth;
 using WebApiLivro.Models;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.EntityFrameworkCore;
+using WebApiLivro.Services.Auth;
+using WebApiLivro.Data;
 
 namespace WebApiLivro.Controllers
 {
@@ -15,13 +13,13 @@ namespace WebApiLivro.Controllers
     [ApiController]
     public class AuthController : ControllerBase
     {
+        private readonly IAuthService _authService;
         private readonly AppDbContext _context;
-        private readonly IConfiguration _configuration;
 
-        public AuthController(AppDbContext context, IConfiguration configuration)
+        public AuthController(IAuthService authService, AppDbContext context)
         {
+            _authService = authService;
             _context = context;
-            _configuration = configuration;
         }
 
         [HttpPost("Registrar")]
@@ -29,19 +27,18 @@ namespace WebApiLivro.Controllers
         {
             try
             {
-                // Verifica se o email já está em uso
                 if (await _context.Usuarios.AnyAsync(u => u.Email == userDto.Email))
+                {
                     return BadRequest("Email já está em uso.");
+                }
 
-                // Criação do usuário com os dados recebidos
                 var usuario = new Usuario
                 {
                     Nome = userDto.Nome,
                     Email = userDto.Email,
-                    SenhaHash = BCrypt.Net.BCrypt.HashPassword(userDto.Senha)  // Agora, usa a Senha do DTO e a armazena como SenhaHash
+                    SenhaHash = BCrypt.Net.BCrypt.HashPassword(userDto.Senha) 
                 };
 
-                // Adiciona o usuário ao banco de dados
                 await _context.Usuarios.AddAsync(usuario);
                 await _context.SaveChangesAsync();
 
@@ -49,19 +46,22 @@ namespace WebApiLivro.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"Erro interno: {ex.Message}");
+                return StatusCode(500, $"Erro ao registrar usuário: {ex.Message}");
             }
         }
 
         [HttpPost("Login")]
         public async Task<IActionResult> Login(LoginDto loginDto)
         {
-            var usuario = await _context.Usuarios.FirstOrDefaultAsync(u => u.Email == loginDto.Email);
-            if (usuario == null || !BCrypt.Net.BCrypt.Verify(loginDto.Senha, usuario.SenhaHash)) 
-                return Unauthorized("Credenciais inválidas.");
-
-            var token = GenerateJwtToken(usuario);
-            return Ok(new { Token = token });
+            try
+            {
+                var token = await _authService.Login(loginDto);
+                return Ok(new { Token = token });
+            }
+            catch (Exception ex)
+            {
+                return Unauthorized($"Erro ao fazer login: {ex.Message}");
+            }
         }
 
         [Authorize]
@@ -70,29 +70,6 @@ namespace WebApiLivro.Controllers
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             return Ok(new { Message = "Acesso autorizado.", UserId = userId });
-        }
-
-        private string GenerateJwtToken(Usuario usuario)
-        {
-            var claims = new[]
-            {
-                new Claim(ClaimTypes.NameIdentifier, usuario.Id.ToString()),
-                new Claim(ClaimTypes.Email, usuario.Email)
-            };
-
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
-            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-            var tokenDescriptor = new SecurityTokenDescriptor
-            {
-                Subject = new ClaimsIdentity(claims),
-                Expires = DateTime.UtcNow.AddHours(1),
-                SigningCredentials = creds
-            };
-
-            var tokenHandler = new JwtSecurityTokenHandler();
-            var token = tokenHandler.CreateToken(tokenDescriptor);
-
-            return tokenHandler.WriteToken(token);
         }
     }
 }

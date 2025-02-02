@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using WebApiLivro.Data;
+using WebApiLivro.Services.Auth;
 using WebApiLivro.Services.Autor;
 using WebApiLivro.Services.Livro;
 
@@ -17,6 +18,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IAutorInterface, AutorService>();
 builder.Services.AddScoped<ILivroInterface, LivroService>();
+builder.Services.AddScoped<IAuthService, AuthService>();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
 {

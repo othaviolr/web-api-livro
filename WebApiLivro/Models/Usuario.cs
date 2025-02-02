@@ -12,9 +12,8 @@
             public string Email { get; set; }
 
             [Required]
-            public string SenhaHash { get; set; } // Adicione esta propriedade
+            public string SenhaHash { get; set; }
 
-            // Outras propriedades, se necessário
             public string Nome { get; set; }
         }
     }
