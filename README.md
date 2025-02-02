@@ -27,11 +27,7 @@ Bem-vindo à minha primeira **Web API de Livros**! Este projeto foi desenvolvido
 - 📦 Cálculo dinâmico de frete para entregas.  
 - ✔️ Validações avançadas de entrada.  
 - 🔧 Tratamento robusto de erros.  
-- 🔐 Segurança com autenticação JWT.  
-
----
-
-- Estou aberto a críticas construtivas e sugestões para meu projeto! :)
+- 🔐 Segurança com autenticação JWT.
   
 ---
 
@@ -41,3 +37,7 @@ Bem-vindo à minha primeira **Web API de Livros**! Este projeto foi desenvolvido
 ---
 ![2](https://github.com/user-attachments/assets/1a50de41-8d54-451c-8775-e72a16bf43f4)
 
+---
+
+- Estou aberto a críticas construtivas e sugestões para meu projeto! :)
+  
