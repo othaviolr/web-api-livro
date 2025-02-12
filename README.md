@@ -7,9 +7,9 @@ Bem-vindo à minha primeira **Web API de Livros**! Este projeto foi desenvolvido
 ## 💡 **Funcionalidades**  
 
 - 📖 **CRUD completo de livros:** cadastro, listar, editar e excluir livros e autores.  
-- 🧑‍💻 **Gerenciamento de autores:** mantenha os registros de autores organizados.  
-- 🚀 **Documentação interativa:** navegue e teste a API com **Swagger**.  
-
+- 💻 **Gerenciamento de autores:** mantendo os registros de autores organizados.  
+- 🚀 **Documentação interativa:** navegando e testando a API com **Swagger**.  
+- 🔑 **Implementação de sistema:** registro e login de usuário.  
 ---
 
 ## 🛠️ **Tecnologias Utilizadas**  
@@ -22,14 +22,22 @@ Bem-vindo à minha primeira **Web API de Livros**! Este projeto foi desenvolvido
 
 ## 🔮 **Melhorias Futuras**
 
-- 🔑 Implementação de sistema de login com autenticação e autorização.  
 - 🛒 Desenvolvimento de um e-commerce de livros.  
 - 🏢 Cadastro e gerenciamento de editoras.  
 - 📦 Cálculo dinâmico de frete para entregas.  
 - ✔️ Validações avançadas de entrada.  
 - 🔧 Tratamento robusto de erros.  
-- 🔐 Segurança com autenticação JWT.  
+- 🔐 Segurança com autenticação JWT.
+  
+---
+
+## **Visualização do Projeto no momento atual!**
+
+![1](https://github.com/user-attachments/assets/9cee94da-3b71-46c1-9ad7-aae7c2c414ff)
+---
+![2](https://github.com/user-attachments/assets/1a50de41-8d54-451c-8775-e72a16bf43f4)
 
 ---
 
 - Estou aberto a críticas construtivas e sugestões para meu projeto! :)
+  
