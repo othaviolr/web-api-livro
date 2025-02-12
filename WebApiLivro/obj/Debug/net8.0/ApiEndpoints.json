@@ -192,6 +192,135 @@
     ]
   },
   {
+    "ContainingType": "WebApiLivro.Controllers.EditoraController",
+    "Method": "BuscarEditoraPorId",
+    "RelativePath": "api/Editora/BuscarEditoraPorId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApiLivro.Models.ResponseModel\u00601[[WebApiLivro.Dto.Editora.EditoraDto, WebApiLivro, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApiLivro.Controllers.EditoraController",
+    "Method": "CriarEditora",
+    "RelativePath": "api/Editora/CriarEditora",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editoraDto",
+        "Type": "WebApiLivro.Dto.Editora.EditoraDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApiLivro.Models.ResponseModel\u00601[[WebApiLivro.Dto.Editora.EditoraDto, WebApiLivro, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApiLivro.Controllers.EditoraController",
+    "Method": "EditarEditora",
+    "RelativePath": "api/Editora/EditarEditora/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "editoraDto",
+        "Type": "WebApiLivro.Dto.Editora.EditoraDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApiLivro.Models.ResponseModel\u00601[[WebApiLivro.Dto.Editora.EditoraDto, WebApiLivro, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApiLivro.Controllers.EditoraController",
+    "Method": "ExcluirEditora",
+    "RelativePath": "api/Editora/ExcluirEditora/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApiLivro.Models.ResponseModel\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApiLivro.Controllers.EditoraController",
+    "Method": "ListarEditoras",
+    "RelativePath": "api/Editora/ListarEditoras",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WebApiLivro.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApiLivro.Dto.Editora.EditoraDto, WebApiLivro, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "WebApiLivro.Controllers.LivroController",
     "Method": "BuscarLivroPorId",
     "RelativePath": "api/Livro/BuscarLivroPorId/{idLivro}",

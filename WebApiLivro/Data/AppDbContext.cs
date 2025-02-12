@@ -16,5 +16,7 @@ namespace WebApiLivro.Data
         
         public DbSet<Usuario> Usuarios { get; set; }
 
+        public DbSet<Editora> Editoras { get; set; }
+
     }
 }

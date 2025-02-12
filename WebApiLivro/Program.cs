@@ -5,6 +5,7 @@ using System.Text;
 using WebApiLivro.Data;
 using WebApiLivro.Services.Auth;
 using WebApiLivro.Services.Autor;
+using WebApiLivro.Services.Editora;
 using WebApiLivro.Services.Livro;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,6 +20,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IAutorInterface, AutorService>();
 builder.Services.AddScoped<ILivroInterface, LivroService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IEditoraService, EditoraService>();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
