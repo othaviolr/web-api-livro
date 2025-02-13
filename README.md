@@ -24,7 +24,6 @@ Bem-vindo à minha primeira **Web API de Livros**! Este projeto foi desenvolvido
 ## 🔮 **Melhorias Futuras**
 
 - 🛒 Desenvolvimento de um e-commerce de livros.  
-- 🏢 Cadastro e gerenciamento de editoras.  
 - 📦 Cálculo dinâmico de frete para entregas.  
 - ✔️ Validações avançadas de entrada.  
 - 🔧 Tratamento robusto de erros.  
