@@ -34,9 +34,11 @@ Bem-vindo à minha primeira **Web API de Livros**! Este projeto foi desenvolvido
 
 ## **Visualização do Projeto no momento atual!**
 
-![1](https://github.com/user-attachments/assets/9cee94da-3b71-46c1-9ad7-aae7c2c414ff)
+![1](https://github.com/user-attachments/assets/d42348ae-2917-43a0-8390-7ed9a90178bf)
+
 ---
-![2](https://github.com/user-attachments/assets/1a50de41-8d54-451c-8775-e72a16bf43f4)
+
+![2](https://github.com/user-attachments/assets/28f98c67-07ab-4628-b4ba-7d98261168ab)
 
 ---
 
